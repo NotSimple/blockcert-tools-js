@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/NotSimple/blockcert-tools-js.svg?branch=master)](https://travis-ci.org/NotSimple/blockcert-tools-js)
 # blockcert-tools-js
 
 A library for generating blockcert certificate templates and instantiating certificate batches
