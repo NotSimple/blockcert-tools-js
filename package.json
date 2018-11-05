@@ -1,0 +1,25 @@
+{
+  "name": "blockcert-tools-js",
+  "version": "0.1.0",
+  "description": "A library for generating blockcert certificate templates and instantiating certificate batches",
+  "main": "index.js",
+  "dependencies": {
+    "json-templater": "^1.2.0"
+  },
+  "devDependencies": {
+    "@blockcerts/cert-verifier-js": "^2.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "image-data-uri": "^2.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NotSimple/blockcert-tools-js.git"
+  },
+  "author": "Eduardo Garrido",
+  "license": "MIT"
+}
