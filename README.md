@@ -49,7 +49,7 @@ issuerEmail: 'contact@issuer.org',
 issuerName: 'University of Learning',
 issuerId: 'https://www.blockcerts.org/samples/2.0/issuer-testnet.json',
 revocationList:  'https://www.blockcerts.org/samples/2.0/revocation-list-testnet.json',
-issuerSignatureLines: [{'jobTitle': 'University Issuer','signatureImage': 'default/images/issuer-signature.png','name': 'Your signature'}],
+issuerSignatureLines: [{'jobTitle': 'University Issuer','image': 'default/images/issuer-signature.png','name': 'Your signature'}],
 issuerPublicKey: 'Cfd720Ada81563D36E53eF2904F5A9E87fD0a29c',
 issuerImage: '',
 
@@ -132,14 +132,16 @@ This will output the following template:
 ### Example Roster Object
 ```js
 roster = [
-  recipient: {
-    name: 'Carlos González Videla',
-    email: 'cagonzalez@gmail.com',
-    pubkey: 'mtr98kany9G1cYNU74pRnfBQmaCg2FZLmc'
-  },
-  certificate: {
-    issuedOn: '2018-07-20T09:33:47.490752+00:00',
-    uid: 'urn:uuid:82a4c9f2-3588-457b-80ea-da695571b8fc'
+  {
+    recipient: {
+      name: 'Carlos González Videla',
+      email: 'cagonzalez@gmail.com',
+      pubkey: 'mtr98kany9G1cYNU74pRnfBQmaCg2FZLmc'
+    },
+    certificate: {
+      issuedOn: '2018-07-20T09:33:47.490752+00:00',
+      uid: 'urn:uuid:82a4c9f2-3588-457b-80ea-da695571b8fc'
+    }
   }
 ]
 ```
