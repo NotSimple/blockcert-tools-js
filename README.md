@@ -131,7 +131,7 @@ This will output the following template:
 
 ### Example Roster Object
 ```js
-roster = {
+roster = [
   recipient: {
     name: 'Carlos González Videla',
     email: 'cagonzalez@gmail.com',
@@ -141,7 +141,7 @@ roster = {
     issuedOn: '2018-07-20T09:33:47.490752+00:00',
     uid: 'urn:uuid:82a4c9f2-3588-457b-80ea-da695571b8fc'
   }
-}
+]
 ```
 
 ### Instantiating certificates
